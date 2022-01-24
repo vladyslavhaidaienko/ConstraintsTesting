@@ -16,24 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Iu-n1-SvW">
-                                <rect key="frame" x="20" y="44" width="374" height="371"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Iu-n1-SvW">
+                                <rect key="frame" x="20" y="44" width="374" height="406"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oTP-pA-mtJ">
-                                <rect key="frame" x="20" y="491" width="374" height="371"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oTP-pA-mtJ">
+                                <rect key="frame" x="20" y="490" width="374" height="406"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <constraints>
-                            <constraint firstItem="oTP-pA-mtJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DZn-yR-8nN"/>
-                            <constraint firstItem="1Iu-n1-SvW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DbR-wX-WxS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Iu-n1-SvW" secondAttribute="trailing" constant="20" id="Thc-00-bec"/>
-                            <constraint firstItem="1Iu-n1-SvW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Y2b-Og-rS5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oTP-pA-mtJ" secondAttribute="trailing" constant="20" id="YvX-7D-Joq"/>
-                            <constraint firstItem="oTP-pA-mtJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="teG-gE-utH"/>
+                            <constraint firstItem="1Iu-n1-SvW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2ON-zX-gmF"/>
+                            <constraint firstItem="1Iu-n1-SvW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3qn-B8-KYx"/>
+                            <constraint firstItem="oTP-pA-mtJ" firstAttribute="height" secondItem="1Iu-n1-SvW" secondAttribute="height" id="B0D-HR-mVQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oTP-pA-mtJ" secondAttribute="trailing" constant="20" id="DTK-xC-4aO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Iu-n1-SvW" secondAttribute="trailing" constant="20" id="J5K-6j-pOY"/>
+                            <constraint firstItem="oTP-pA-mtJ" firstAttribute="top" secondItem="1Iu-n1-SvW" secondAttribute="bottom" constant="40" id="P4E-3N-0NQ"/>
+                            <constraint firstItem="oTP-pA-mtJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lAR-tY-HhY"/>
+                            <constraint firstAttribute="bottom" secondItem="oTP-pA-mtJ" secondAttribute="bottom" id="qAV-AC-IRm"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -43,8 +45,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
